@@ -1,0 +1,64 @@
+body{
+background: #FFFAF8;
+margin: 0;
+width: 1920px;
+height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    position:fixed;
+    width: 1920px;
+    height: 113px;
+    left: 0px;
+    top: 54px;
+    background: #37354E;
+    flex-wrap: wrap;
+}
+
+.head{
+height: 100%;
+    
+position: relative;
+float:left;
+
+width: 33%;
+color:#FFFAF5;
+font-size: 2em;
+text-align: center;
+padding-top: 2% ;
+}
+
+.mainName{
+    position: relative;
+margin: 200px 100px 0px 0px;
+
+}
+
+.Name{
+font-size: 3em;
+color:#37354E;
+text-align: center;
+}
+
+.line{
+    border: 1px solid rgba(55, 53, 78, 0.4);;
+    width: 500px;
+    margin: 10px 37.5%;
+}
+
+.allContacts{
+margin: 20px 400px;
+}
+.contact{
+    margin: 20px;
+}
+
+.value{
+    font-weight:bolder;
+    font-size: 2em;
+    color:#37354E;
+}
